@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbarMenu    "
+    >
+
+    <item
+        android:id="@+id/text_color"
+        android:title="Text Color"
+        yourapp:showAsAction="always|withText"
+        android:icon="@mipmap/rounded_menu"
+        android:orderInCategory="1"
+        >
+        <menu>
+            <item
+                android:id="@+id/item_subscribe"
+                android:title="Subscribe"
+                />
+            <item
+                android:id="@+id/item_return"
+                android:title="Return to Software"
+                />
+            <item
+                android:id="@+id/item_profile"
+                android:title="My Profile"
+                />
+            <item
+                android:id="@+id/item_history"
+                android:title="View Payment History"
+                />
+            <item
+                android:id="@+id/item_logout"
+                android:title="Logout"
+                />
+        </menu>
+    </item>
+</menu>

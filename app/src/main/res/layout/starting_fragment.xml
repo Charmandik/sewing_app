@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_image_small" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            >
+
+            <Button
+                android:id="@+id/startingFragmentLoginBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:includeFontPadding="false"
+                android:text="@string/login"
+                android:background="@drawable/rounded_button_gray"
+                android:textColor="@color/White"
+                android:layout_margin="5dp"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/startingFragmentSignupBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/White"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button_gray"
+                android:textSize="16dp"
+                android:layout_margin="5dp"
+                android:text="Signup" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/textView10"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/roboto_slab_regular"
+            android:text="@string/welcome_message_2"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

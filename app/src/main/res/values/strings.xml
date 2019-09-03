@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TES</string>
+    <string name="authorization">Authorization</string>
+    <string name="email">Email:</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="registration">Registration</string>
+    <string name="send_password">Send Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="username">Username</string>
+    <string name="first_name">First Name</string>
+    <string name="second_name">Second Name</string>
+    <string name="response_error">Error! Please try again!</string>
+    <string name="last_name">Last Name</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="licence_left">Licence Left</string>
+    <string name="please_fill_out_the_following_fields_to_login">Please fill out the following fields to login:</string>
+    <string name="not_registered_yet_you_can_register_here">Not registered yet? You can register here.</string>
+    <string name="forgot_password_click_here">Forgot password? Click here</string>
+    <string name="please_fill_out_the_following_fields_to_signup">Please fill out the following fields to signup:</string>
+    <string name="enter_password_again">Enter password again</string>
+    <string name="signup_for_free_ntrial_pass">Signup for FREE \nTrial Pass</string>
+    <string name="welcome_message">Here you can buy and manage memberships for ThreadES</string>
+    <string name="welcome_message_2">Welcome to Threads\nEmbroidery Software\nMembership Management\nGateway!</string>
+    <string name="use_promo_code">Use Promo Code:</string>
+    <string name="enter_now">Enter Now</string>
+    <string name="status">Status</string>
+    <string name="license">License</string>
+    <string name="item1">Item1</string>
+    <string name="item2">Item2</string>
+    <string name="item3">Item3</string>
+    <string name="item4">Item4</string>
+    <string name="signup">SIGNUP</string>
+</resources>

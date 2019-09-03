@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_image_small" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/small_logo" />
+
+        <TextView
+            android:id="@+id/profileEmailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto_slab_regular"
+            android:paddingBottom="5dp"
+            android:text="Email"
+            android:textColor="@color/White"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/forgot_pass_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/rounded_border_gray"
+            android:imeOptions="flagNoExtractUi"
+            android:padding="5dp" />
+
+        <Button
+            android:id="@+id/forgot_pass_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_button_gray"
+            android:padding="5dp"
+            android:text="@string/send_password"
+            android:textColor="@color/White" />
+
+    </LinearLayout>
+
+</FrameLayout>

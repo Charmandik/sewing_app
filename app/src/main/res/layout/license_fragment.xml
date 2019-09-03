@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical">
+    <!--TODO: i think there textView must be scrollable and for this need add him to recycler view-->
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/roboto_slab_regular"
+        android:text="@string/welcome_message"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/White">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/licenseRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:itemCount="5"
+            tools:listitem="@layout/license_view_item"></androidx.recyclerview.widget.RecyclerView>
+    </ScrollView>
+</LinearLayout>
